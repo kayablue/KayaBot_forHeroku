@@ -2,7 +2,7 @@ const { MessageCollector } = require('discord.js');
 const KayaEmbed = require('../modules/kayaEmbed');
 const Command = require('../modules/command');
 
-module.exports = new Command('calc', 'Just Hypixel Level Calculator', '', 'hypixel', async (message, args) => {
+module.exports = new Command('smashcalc', 'Smash Heroes EXP Calculator', '', 'hypixel', async (message, args) => {
     let calcData = [];
 
     // FUNCTIONS START
